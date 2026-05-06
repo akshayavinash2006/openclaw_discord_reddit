@@ -1,0 +1,25 @@
+{
+  "version": 1,
+  "lastGood": {
+    "ollama": "ollama:default",
+    "github-copilot": "github-copilot:github",
+    "google": "google:default"
+  },
+  "usageStats": {
+    "ollama:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1777478377652,
+      "lastUsed": 1777478377760
+    },
+    "github-copilot:github": {
+      "errorCount": 0,
+      "lastFailureAt": 1777480103697,
+      "lastUsed": 1777480103810
+    },
+    "google:default": {
+      "errorCount": 0,
+      "lastFailureAt": 1778087498319,
+      "lastUsed": 1778087498421
+    }
+  }
+}

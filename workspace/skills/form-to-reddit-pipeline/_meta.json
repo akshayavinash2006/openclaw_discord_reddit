@@ -1,0 +1,14 @@
+{
+  "name": "form-to-reddit-pipeline",
+  "version": "1.0.0",
+  "description": "Orchestrates complete workflow: reads Discord form responses, researches Reddit subreddits, generates marketing posts",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": ["discord", "reddit", "pipeline", "automation", "marketing"],
+  "dependencies": {
+    "discord-form-reader": "^1.0.0",
+    "reddit-readonly": "^1.0.0"
+  },
+  "triggers": ["discord.message.#filled-answers"],
+  "main": "scripts/js/form-to-reddit-pipeline.mjs"
+}

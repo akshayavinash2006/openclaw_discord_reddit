@@ -1,0 +1,11 @@
+{
+  "name": "discord-form-reader",
+  "version": "1.0.0",
+  "description": "Reads Discord form responses from #filled-answers channel and extracts business information",
+  "author": "Your Name",
+  "license": "MIT",
+  "keywords": ["discord", "forms", "business", "extraction"],
+  "dependencies": {},
+  "triggers": ["discord.message.#filled-answers"],
+  "main": "scripts/js/discord-form-reader.mjs"
+}

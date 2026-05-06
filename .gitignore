@@ -1,0 +1,42 @@
+# Sensitive credentials and tokens
+credentials/
+env
+.env
+.env.local
+
+# Sensitive config files with secrets
+openclaw.json
+
+# Database and temp files
+*.sqlite-shm
+*.sqlite-wal
+registry.sqlite*
+
+# Logs
+logs/
+*.log
+
+# Runtime state
+tasks/
+flows/registry.*
+devices/
+plugin-runtime-deps/
+memory/
+
+# Backups
+*.bak*
+*.clobbered.*
+*.last-good
+update-check.json
+
+# Cache
+.cache/
+node_modules/
+
+# OS files
+.DS_Store
+Thumbs.db
+agents/main/sessions/
+agents/main/agent/auth-profiles.json
+agents/main/sessions/
+agents/main/agent/auth-profiles.json
