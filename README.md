@@ -30,7 +30,7 @@ OpenClaw is an event-driven AI agent that:
 4. **Compiles** findings and posts them back to Discord
 
 **Agent Identity:** Lob 🦞 - Reddit research specialist
-**Primary Model:** DeepSeek R1 (via OpenRouter)
+**Primary Model:** llama3 8b (via groq)
 **Gateway:** OpenClaw runtime (port 18789)
 
 ---
@@ -312,12 +312,12 @@ Output JSON with findings
   "agents": {
     "defaults": {
       "model": {
-        "primary": "openrouter/auto"
+        "primary": "groq/auto"
       },
       "models": {
         "huggingface/deepseek-ai/DeepSeek-R1": {},
         "google/gemini-3.1-pro-preview": {},
-        "openrouter/auto": { "alias": "OpenRouter" }
+        "groq/auto": { "alias": "groq" }
       }
     }
   }
@@ -414,7 +414,7 @@ Periodic tasks executed every 20 seconds:
 - OpenClaw runtime installed
 - Discord bot token
 - Reddit API access (public endpoints)
-- LLM API key (Gemini, DeepSeek, or OpenRouter)
+- LLM API key (Gemini, DeepSeek, or groq)
 
 ### Installation
 
