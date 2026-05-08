@@ -6,6 +6,9 @@ Powered by OpenClaw runtime with Reddit research capabilities via Lob 🦞, your
 
 ---
 
+Video Demo Link:
+https://drive.google.com/file/d/1syctxeDdkTDjBtx5t24eE9nY-rZGq9hD/view?usp=sharing
+
 ## 📋 Table of Contents
 
 - [Overview](#overview)
